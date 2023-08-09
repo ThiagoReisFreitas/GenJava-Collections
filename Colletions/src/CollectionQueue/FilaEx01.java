@@ -34,6 +34,7 @@ public class FilaEx01 {
                     System.out.print("Digite o nome: ");
                     nome = leia.nextLine();
                     fila.add(nome);
+                    leiaFila(fila);
                     System.out.printf("Cliente %s foi adcionado!\n", nome);
                     break;
                 case 2:
